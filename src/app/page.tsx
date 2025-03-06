@@ -141,7 +141,7 @@ export default function Page() {
           
         </h2>
         <a
-          href="/cv.pdf"
+          href="/CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"

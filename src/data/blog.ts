@@ -66,16 +66,5 @@ async function getAllPosts(dir: string) {
 }
 
 export async function getBlogPosts() {
-  return [
-    {
-      metadata: {
-        title: "Mi CV",
-        publishedAt: new Date().toISOString(),
-        summary: "Este es mi currículum actualizado.",
-        pdf: "/CV.pdf", 
-      },
-      slug: "cv",
-      source: `<embed src="/cv.pdf" type="application/pdf" width="100%" height="100vh" />`,
-    },
-  ];
+  return getAllPosts(path.join(process.cwd(), "content"));
 }

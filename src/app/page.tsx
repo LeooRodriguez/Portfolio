@@ -56,7 +56,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-bold">Educacion</h2>
+            <h2 className="text-xl font-bold">Educación</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
@@ -102,7 +102,7 @@ export default function Page() {
                   Proyectos en desarrollo
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Proyectos destinados al testeo y a las buenas practicas
+                  Proyectos destinados al testeo y a las buenas prácticas
                 </p>
               </div>
             </div>
@@ -146,7 +146,7 @@ export default function Page() {
           rel="noopener noreferrer"
           className="inline-block px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
         >
-          Haz click aqui
+          Haz click aquí
         </a>
       </div>
     </div>
@@ -168,7 +168,7 @@ export default function Page() {
           Telefono: +54 9 2915204611
         </div>
         <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-          Direccion: Palermo, CABA, Argentina
+          Dirección: Palermo, CABA, Argentina
         </div>
       </div>
     </div>

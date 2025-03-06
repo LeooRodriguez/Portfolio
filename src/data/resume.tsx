@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Leo Rodriguez",
+  name: "Leo Rodríguez",
   initials: "LR",
   url: "https://leoorodriguez.github.io/",
   location: "Palermo, CABA, Argentina",
@@ -75,13 +75,13 @@ export const DATA = {
     {
       school: "Universidad Nacional del Sur",
       href: "https://www.uns.edu.ar/",
-      degree: "Licenciatura en ciencias de la computacion",
+      degree: "Licenciatura en ciencias de la computación",
       logoUrl: "/logo-uns.png",
       start: "Marzo 2018",
       end: "Agosto 2024",
     },
     {
-      school: "Universidad Tecnologica Nacional Buenos Aires",
+      school: "Universidad Tecnológica Nacional Buenos Aires",
       href: "https://frba.utn.edu.ar/",
       degree: "SAP GUI S/4HANA Security Consultant Course",
       logoUrl: "/logoutn.png",
@@ -89,21 +89,70 @@ export const DATA = {
       end: "Octubre 2024",
     },
     {
-      school: "Platzi",
-      href: "https://platzi.com/home/",
-      degree: "CAMBIAR ESTO",
-      logoUrl: "/platzi.png",
-      start: "Diciembre 2023",
+      school: "Udemy",
+      href: "https://www.udemy.com/certificate/UC-d51a58c8-3059-4068-a358-b7ce050cb4b7/",
+      degree: "Consultor de Seguridad SAP",
+      logoUrl: "/Udemy-Logo.png",
+      start: "Enero 2025",
+      end: "Enero 2025",
+    },
+    {
+      school: "Udemy",
+      href: "https://www.udemy.com/course/testerbootcamp/learn/lecture/24076484#overview",
+      degree: "Complete 2024 Software Testing",
+      logoUrl: "/Udemy-Logo.png",
+      start: "Noviembre 2024",
       end: "Actualmente",
     },
     {
       school: "Udemy",
-      href: "https://www.udemy.com/",
-      degree: "IB Diploma",
+      href: "https://drive.google.com/file/d/1W38l74cinuN2B-gDxXG8EOdBrv3d_h1U/view",
+      degree: "API Testing con POSTMAN",
       logoUrl: "/Udemy-Logo.png",
-      start: "Octubre 2024",
-      end: "Actualmente",
+      start: "Diciembre 2024",
+      end: "Diciembre 2024",
     },
+    {
+      school: "Platzi",
+      href: "https://platzi.com/p/leo_rodr%C3%ADguez_179/curso/4558-introduccion-devops/diploma/detalle/",
+      degree: "Introduction to DevOps Course",
+      logoUrl: "/platzi.png",
+      start: "Noviembre 2024",
+      end: "Noviembre 2024",
+    },
+    {
+      school: "Platzi",
+      href: "https://platzi.com/p/leo_rodr%C3%ADguez_179/curso/1975-usabilidad-practico/diploma/detalle/",
+      degree: "Usability Testing Course",
+      logoUrl: "/platzi.png",
+      start: "Noviembre 2024",
+      end: "Noviembre 2024",
+    },
+    {
+      school: "Platzi",
+      href: "https://platzi.com/p/leo_rodr%C3%ADguez_179/curso/4128-equipos-agiles/diploma/detalle/",
+      degree: "Agile team management Course",
+      logoUrl: "/platzi.png",
+      start: "Octubre 2024",
+      end: "Octubre 2024",
+    },
+    {
+      school: "Platzi",
+      href: "https://platzi.com/p/leo_rodr%C3%ADguez_179/curso/2620-automatizacion-pruebas/diploma/detalle/",
+      degree: "Introduction to test Automation",
+      logoUrl: "/platzi.png",
+      start: "Octubre 2024",
+      end: "Octubre 2024",
+    },
+    {
+      school: "Platzi",
+      href: "https://platzi.com/p/leo_rodr%C3%ADguez_179/curso/1421-pruebas-software/diploma/detalle/",
+      degree: "Software Testing Fundamentals",
+      logoUrl: "/platzi.png",
+      start: "Septiembre 2024",
+      end: "Septiembre 2024",
+    },
+
   ],
   projects: [
     {
@@ -112,9 +161,9 @@ export const DATA = {
       dates: "Agosto 2024 - Actualmente",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Pagina la cual recomienda libros a los usuarios en base a los que la persona leyó anteriormente, utilizando una API de libros gratuita.",
       technologies: [
-        "Next.js",
+        "React",
         "JavaScript",
         "PostgreSQL",
         "TailwindCSS",
@@ -166,7 +215,7 @@ export const DATA = {
       description:
         "Pagina web de creacion,almacenamiento y catalogo de notas con posibilidad de compartirlo en un entorno de desarrollo.",
       technologies: [
-        "Next.js",
+        "React",
         "JavaScript",
         "PostgreSQL",
         "TailwindCSS",
